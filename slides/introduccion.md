@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /assets/centro_arangoya.jpg
+background: /centro_arangoya.jpg
 # some information about your slides (markdown enabled)
 author: Kevin Cifuentes
 title: Programación de servicios y procesos - Introducción
@@ -12,7 +12,7 @@ info: |
   Introducción a la asignatura de Arangoya
 # apply unocss classes to the current slide
 class: text-center
-favicon: /assets/favicon.png
+favicon: /favicon.png
 # https://sli.dev/features/drawing
 drawings:
   persist: false
@@ -30,12 +30,9 @@ lineNumbers: true
 
 Introducción 
 
-<img src="./assets/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
+<img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
   <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
@@ -51,7 +48,7 @@ transition: fade-out
 
 <div class="abs-tr m-6 text-xl">
   <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
-    <img src="./assets/favicon.png">
+    <img src="/favicon.png">
   </a>
 </div>
 
