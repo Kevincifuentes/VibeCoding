@@ -36,9 +36,6 @@ Introducción
   <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
-  <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
 </div>
 
 <!--
