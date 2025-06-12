@@ -32,14 +32,14 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build ./slides/*.md
+        run: nr build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: slides/dist
+          path: dist
 
   deploy:
     environment:
