@@ -30,7 +30,7 @@ lineNumbers: true
 
 Introducción 
 
-<img src="../assets/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
+<img src="./assets/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
@@ -51,7 +51,7 @@ transition: fade-out
 
 <div class="abs-tr m-6 text-xl">
   <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
-    <img src="../assets/favicon.png">
+    <img src="./assets/favicon.png">
   </a>
 </div>
 
