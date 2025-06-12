@@ -3,7 +3,7 @@
 case "$1" in
   build)
     for i in $(ls slides/*.md | sed 's/slides\/\|\.md//g') 
-      do slidev build ./slides/$i.md -d --base /slidev/$i/ --out ../dist/$i/
+      do slidev build ./slides/$i.md -d --base /PSP_arangoya/$i/ --out ../dist/$i/
     done
   ;;
   --open)
