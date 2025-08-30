@@ -15,5 +15,5 @@ Edita el fichero elegido y verás los cambios directamente en la URL.
 Más información sobre Slidev en [documentación](https://sli.dev/).
 
 ## Bibliografía
-Las siguientes slides se basan en el libro de Addy Osmani "Beyond Vibe Coding". POdéis encontrar más información al respecto en su
+Las siguientes slides se basan en el libro de Addy Osmani "Beyond Vibe Coding". Podéis encontrar más información al respecto en su
 blog: https://beyond.addy.ie/
