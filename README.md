@@ -1,8 +1,8 @@
-# Bienvenido a Programación de Servicios y Procesos de Arangoya
+# Bienvenido a Vibe Coding de Arangoya
 La página web está disponible directamente en los siguientes URLs, "hosteada" en Github pages:
-* [Introducción](https://kevincifuentes.github.io/PSP_arangoya/introduccion)
+* [Introducción](https://kevincifuentes.github.io/VibeCoding/introduccion)
 
-Si quieres jugar en local con el repositorio, puedes hacerlo de la siguiente manera:
+Si quieres "jugar" en local con el repositorio, puedes hacerlo de la siguiente manera:
 
 - `pnpm install`
 - `pnpm dev -- ./slides/{el-nombre-de-la-presentacion.md}`
@@ -13,3 +13,7 @@ El `{el-nombre-de-la-presentacion.md}` deberás sustituirlo por alguno de los fi
 Edita el fichero elegido y verás los cambios directamente en la URL.
 
 Más información sobre Slidev en [documentación](https://sli.dev/).
+
+## Bibliografía
+Las siguientes slides se basan en el libro de Addy Osmani "Beyond Vibe Coding". POdéis encontrar más información al respecto en su
+blog: https://beyond.addy.ie/

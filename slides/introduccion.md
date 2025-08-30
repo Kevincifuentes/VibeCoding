@@ -6,9 +6,9 @@ theme: seriph
 background: /centro_arangoya.jpg
 # some information about your slides (markdown enabled)
 author: Kevin Cifuentes
-title: Programación de servicios y procesos - Introducción
+title: Vibe Coding
 info: |
-  ## Programación de servicios y procesos
+  ## Vibe Coding
   Introducción a la asignatura de Arangoya
 # apply unocss classes to the current slide
 class: text-center
@@ -26,14 +26,14 @@ lineNumbers: true
 #  ogImage: https://cover.sli.dev
 ---
 
-# Programación de Servicios y Procesos
+# Vibe Coding
 
 Introducción 
 
 <img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/Kevincifuentes/psp" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/Kevincifuentes/VibeCoding" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
 </div>
