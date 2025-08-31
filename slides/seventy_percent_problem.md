@@ -291,4 +291,33 @@ Puntos como Seguridad, rendimiento, accesibilidad son parte de los detalles y vi
 -->
 
 
+---
+transition: slide-up
+layout: full
+---
+# Patterns that actually work!
 
+<div class="space-y-10">
+  <div class="flex items-start gap-10">
+    <div class="w-80 shrink-0"><h2 class="m-0">AI as first drafter</h2></div>
+    <div class="flex-1"><p class="text-sm leading-relaxed m-0">AI is going to do the <b>whole implementation</b> so if you are using on a team, communication is key to avoid duplications. It's important to stablish <b>code standards and conventions</b> (for example, rules in Cursor or README.md) to follow same exact practises. Really important tool like <b>GIT</b> to mantain different versions.</p></div>
+  </div>
+
+  <div class="flex items-start gap-10">
+    <div class="w-80 shrink-0"><h2 class="m-0">AI as pair programmer</h2></div>
+    <div class="flex-1"><p class="text-sm leading-relaxed m-0">Hybrid: Human-AI interaction by implementation and review of code generated. Gives <b>best of both worlds</b>, giving also the opportunity to improve and learn to the human being.</p></div>
+  </div>
+
+  <div class="flex items-start gap-10">
+    <div class="w-80 shrink-0"><h2 class="m-0">AI as validator</h2></div>
+    <div class="flex-1"><p class="text-sm leading-relaxed m-0"><b>Human still does the implementation</b> but <b>AI reviews </b> it and gives suggestions or changes to the implemented code to avoid bugs or enhance the current</p></div>
+  </div>
+</div>
+
+<!--
+Los patrones que sí funcionan y hay que seguir son los siguientes:
+* Usar la IA con un primer paso para empezar un proyecto y utilizarla frecuentemente para seguir incrementandolo. Es importante establecer una reglas a la IA para sean comunes en todo el equipo y que la IA genere lo mismo para todos (Cursor Rules). Importante Git, siempre.
+* Usar la IA como pair programmer, pidiendole cosas y revisando lo que genera para modificarlo o pedirle cambios a lo mismo. Permite crecer como profesional sin perder el conocimiento de programación.
+* Usar la IA como validación, es decir, seguimos programando los humanos pero con supervisión/mejoras de lo programado por parte de la IA.
+
+-->
