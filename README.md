@@ -1,6 +1,10 @@
 # Bienvenido a Vibe Coding de Arangoya
-La página web está disponible directamente en los siguientes URLs, "hosteada" en Github pages:
+La página web está disponible directamente en los siguientes URLs, "hosteada" en Github pages.
+
+## Vibe Coding
+
 * [Introducción](https://kevincifuentes.github.io/VibeCoding/introduccion)
+* [What is Vibe Coding?](https://kevincifuentes.github.io/VibeCoding/what_is_vibe_coding)
 
 Si quieres "jugar" en local con el repositorio, puedes hacerlo de la siguiente manera:
 
