@@ -45,10 +45,13 @@ layout: cover
 </div>
 
 # What is <b>Git</b>?
+<br>
 
-- Distributed version control system
-- Tracks changes to files and coordinates work among developers
-- Works locally and with remotes (e.g., GitHub, GitLab)
+Distributed version control system
+
+Tracks changes to files and coordinates work among developers
+
+Works locally and with remotes (e.g., GitHub, GitLab)
 
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
@@ -118,13 +121,13 @@ git config --global core.editor "code --wait"   # or vim, nano, etc.
 </div>
 
 ---
-layout: two-cols
+layout: two-cols-header
 transition: fade
 ---
 
 # Create a repo <b>or</b> clone from GitHub
 
-:::left::
+::left::
 
 ## Create new repository (local)
 
@@ -142,7 +145,7 @@ git commit -m "chore: initialize repository"
 git remote add origin git@github.com:org/my-project.git
 ```
 
-:::right::
+::right::
 
 ## Clone existing repository
 
@@ -153,8 +156,6 @@ git clone git@github.com:org/my-project.git
 # HTTPS
 git clone https://github.com/org/my-project.git
 ```
-
-<img src="/git.png" class="max-h-40 mt-4 rounded-lg shadow" />
 
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
@@ -167,7 +168,7 @@ transition: slide-up
 
 # Feature-Branch Flow (overview)
 
-```mermaid {theme: 'neutral', scale: 0.95}
+```mermaid {theme: 'neutral', scale: 0.45}
 flowchart LR
   A[main] -->|branch from| B[feature/awesome]
   B --> C[commit 1]
@@ -272,13 +273,13 @@ git blame path/to/file
 </div>
 
 ---
-layout: two-cols
+layout: two-cols-header
 transition: slide-up
 ---
 
 # Sync with remote: <b>push</b> and <b>pull</b>
 
-:::left::
+::left::
 
 ## Push your branch
 ```bash
@@ -293,7 +294,7 @@ git push
 git pull --rebase
 ```
 
-:::right::
+::right::
 
 ## Keep `main` fresh locally
 ```bash
@@ -307,8 +308,6 @@ git fetch origin
 # then inspect & merge/rebase manually
 ```
 
-<img src="/git.png" class="max-h-40 mt-6 rounded-lg shadow" />
-
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div>
@@ -316,7 +315,8 @@ git fetch origin
 ---
 layout: image-right
 transition: fade
-image: /git.png
+image: /pull_request.gif
+backgroundSize: contain
 ---
 
 # Open a Pull Request (GitHub)
@@ -343,7 +343,7 @@ transition: slide-up
 
 # Review & Merge
 
-```mermaid {theme: 'neutral', scale: 0.95}
+```mermaid {theme: 'neutral', scale: 0.45}
 flowchart LR
   A[feature/awesome] --> B[PR #123]
   B --> C[CI checks]
@@ -414,7 +414,7 @@ transition: fade
 
 # Trunk-based development (contrast)
 
-```mermaid {theme: 'neutral', scale: 0.95}
+```mermaid {theme: 'neutral', scale: 0.45}
 flowchart LR
   T[trunk/main]
   subgraph Short-lived branches
