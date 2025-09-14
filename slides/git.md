@@ -24,6 +24,12 @@ lineNumbers: true
 
 # Git Essentials
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 Master the basics of Git and GitHub
 
 <img src="/git.png" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
@@ -125,9 +131,17 @@ layout: two-cols-header
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Create a repo <b>or</b> clone from GitHub
 
 ::left::
+
+<div class="pr-6 max-w-[44rem]">
 
 ## Create new repository (local)
 
@@ -144,8 +158,17 @@ git commit -m "chore: initialize repository"
 ```bash
 git remote add origin git@github.com:org/my-project.git
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
 
 ::right::
+
+<div class="pl-6 max-w-[44rem]">
 
 ## Clone existing repository
 
@@ -157,6 +180,8 @@ git clone git@github.com:org/my-project.git
 git clone https://github.com/org/my-project.git
 ```
 
+</div>
+
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div>
@@ -166,26 +191,15 @@ layout: full
 transition: slide-up
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Feature-Branch Flow (overview)
 
-```mermaid {theme: 'neutral', scale: 0.75}
-flowchart LR
-  A[main]
-  B[feature/awesome]
-  C[commit 1]
-  D[commit 2]
-  E[push to origin]
-  F[Open Pull Request]
-  G[Code Review]
-  H[Merge to main]
-  I[Delete branch]
-
-  A -->|branch from| B --> C --> D --> E --> F --> G --> H --> I
-
-  style A fill:#e5f5ff,stroke:#1e90ff,stroke-width:2px
-  style B fill:#f7e5ff,stroke:#c57eff,stroke-width:2px,stroke-dasharray: 5 5
-  style H fill:#e5f5ff,stroke:#1e90ff,stroke-width:2px
-```
+<img src="/feature_branch.png" class="w-140 mx-auto mt-4 rounded-lg shadow-lg">
 
 - Short-lived branches off `main`
 - Commit locally, push, open PR, review, merge, delete branch
@@ -198,6 +212,12 @@ flowchart LR
 layout: center
 transition: fade
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Create and remove branches
 
@@ -229,6 +249,12 @@ layout: center
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Make changes and commit
 
 ```bash
@@ -256,6 +282,12 @@ layout: center
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Inspect changes and history
 
 ```bash
@@ -280,9 +312,17 @@ layout: two-cols-header
 transition: slide-up
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Sync with remote: <b>push</b> and <b>pull</b>
 
 ::left::
+
+<div class="pr-6 max-w-[44rem]">
 
 ## Push your branch
 ```bash
@@ -297,7 +337,17 @@ git push
 git pull --rebase
 ```
 
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ::right::
+
+<div class="pl-6 max-w-[44rem]">
 
 ## Keep `main` fresh locally
 ```bash
@@ -311,6 +361,8 @@ git fetch origin
 # then inspect & merge/rebase manually
 ```
 
+</div>
+
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div>
@@ -321,6 +373,12 @@ transition: fade
 image: /pull_request.gif
 backgroundSize: contain
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 <div class="max-w-4xl">
 
@@ -347,6 +405,12 @@ backgroundSize: contain
 layout: full
 transition: slide-up
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Review & Merge
 
@@ -377,6 +441,12 @@ layout: center
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Revert changes (safe undo)
 
 ```bash
@@ -399,6 +469,12 @@ layout: center
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Cherry-pick (copy a commit)
 
 ```bash
@@ -418,40 +494,15 @@ git cherry-pick --continue
 </div>
 
 ---
-layout: full
-transition: fade
----
-
-# Trunk-based development (contrast)
-
-```mermaid {theme: 'neutral', scale: 0.75}
-flowchart LR
-  T[trunk/main]
-  subgraph Short-lived branches
-    B1[dev-1] --> T
-    B2[dev-2] --> T
-    B3[dev-3] --> T
-  end
-  T --> F[Feature flags / small increments]
-
-  style T fill:#e5f5ff,stroke:#1e90ff,stroke-width:2px
-  style F fill:#fff3cd,stroke:#f0ad4e,stroke-width:2px
-  style B1 fill:#f7e5ff,stroke:#c57eff,stroke-dasharray: 5 5
-  style B2 fill:#f7e5ff,stroke:#c57eff,stroke-dasharray: 5 5
-  style B3 fill:#f7e5ff,stroke:#c57eff,stroke-dasharray: 5 5
-```
-
-- Integrate to `main` daily; very short-lived branches
-- Rely on feature flags and strong CI
-
-<div class="abs-br m-6 text-xl">
-  <SlideCurrentNo />
-</div>
-
----
 layout: center
 transition: fade
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Quick cheat sheet
 
