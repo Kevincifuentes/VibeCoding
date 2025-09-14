@@ -32,7 +32,7 @@ lineNumbers: true
 
 Master the basics of Git and GitHub
 
-<img src="/git.png" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
+<img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
 <div class="abs-br m-6 text-xl">
   <a href="https://git-scm.com/" target="_blank" class="slidev-icon-btn">
@@ -40,6 +40,7 @@ Master the basics of Git and GitHub
   </a>
 </div>
 
+<!-- Introducción: vamos a ver Git de forma práctica, flujo por ramas y comandos esenciales. -->
 ---
 layout: cover
 ---
@@ -63,6 +64,7 @@ Works locally and with remotes (e.g., GitHub, GitLab)
   <SlideCurrentNo />
 </div>
 
+<!-- Defino Git: control de versiones distribuido, cambios, coordinación y trabajo local/remoto. -->
 ---
 layout: center
 transition: fade
@@ -96,6 +98,7 @@ git --version
   <SlideCurrentNo />
 </div>
 
+<!-- Instalación rápida por SO y verificación con git --version. -->
 ---
 layout: center
 transition: fade
@@ -126,6 +129,7 @@ git config --global core.editor "code --wait"   # or vim, nano, etc.
   <SlideCurrentNo />
 </div>
 
+<!-- Configuración inicial: nombre, email y preferencias básicas (branch por defecto, editor). -->
 ---
 layout: two-cols-header
 transition: fade
@@ -186,6 +190,7 @@ git clone https://github.com/org/my-project.git
   <SlideCurrentNo />
 </div>
 
+<!-- Creo repo local o clono; muestro el flujo mínimo para empezar o enganchar un remoto. -->
 ---
 layout: full
 transition: slide-up
@@ -208,6 +213,7 @@ transition: slide-up
   <SlideCurrentNo />
 </div>
 
+<!-- Flujo por ramas: ramas cortas desde main, PR y revisión. Mantener simple y limpio. -->
 ---
 layout: center
 transition: fade
@@ -244,6 +250,7 @@ git push origin --delete feature/awesome
   <SlideCurrentNo />
 </div>
 
+<!-- Crear, listar y borrar ramas; prefiero nombres claros y ramas cortas. -->
 ---
 layout: center
 transition: fade
@@ -277,6 +284,7 @@ git commit --amend -m "feat(login): enable OAuth sign-in (GitHub)"
   <SlideCurrentNo />
 </div>
 
+<!-- Añadir y commitear con mensajes claros; mejor convención type(scope): resumen. -->
 ---
 layout: center
 transition: fade
@@ -307,6 +315,7 @@ git blame path/to/file
   <SlideCurrentNo />
 </div>
 
+<!-- Inspeccionar cambios y el historial para entender y revisar antes de empujar. -->
 ---
 layout: two-cols-header
 transition: slide-up
@@ -367,6 +376,7 @@ git fetch origin
   <SlideCurrentNo />
 </div>
 
+<!-- Sincronizar: push para publicar; pull --rebase para mantener historial lineal. -->
 ---
 layout: image-right
 transition: fade
@@ -401,6 +411,7 @@ backgroundSize: contain
   <SlideCurrentNo />
 </div>
 
+<!-- Abrir PR con buen contexto; revisar checks y preferir Squash para historial limpio. -->
 ---
 layout: full
 transition: slide-up
@@ -436,6 +447,7 @@ flowchart LR
   <SlideCurrentNo />
 </div>
 
+<!-- Revisión y CI como puertas; elegir estrategia de merge según el equipo. -->
 ---
 layout: center
 transition: fade
@@ -464,6 +476,7 @@ git revert <old-sha>^..<new-sha>
   <SlideCurrentNo />
 </div>
 
+<!-- Revertir es seguro para deshacer sin reescribir historia; evitar reset --hard en ramas compartidas. -->
 ---
 layout: center
 transition: fade
@@ -493,6 +506,7 @@ git cherry-pick --continue
   <SlideCurrentNo />
 </div>
 
+<!-- Cherry-pick para traer commits específicos entre ramas (p. ej. backports). -->
 ---
 layout: center
 transition: fade
@@ -559,6 +573,7 @@ git cherry-pick <sha>
   <SlideCurrentNo />
 </div>
 
+<!-- Hoja rápida con comandos de uso diario; útil como referencia. -->
 ---
 layout: center
 transition: fade
@@ -583,3 +598,4 @@ transition: fade
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div> 
+<!-- Recursos confiables; guarda esta lista para volver cuando necesites profundizar o una referencia rápida. -->

@@ -28,7 +28,7 @@ lineNumbers: true
 
 # Vibe Coding
 
-What is Vibe Coding?
+## What is Vibe Coding?
 
 <img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
@@ -38,6 +38,7 @@ What is Vibe Coding?
   </a>
 </div>
 
+<!-- Slide de apertura: qué es Vibe Coding y cómo cambia la forma de programar. Bienvenid@s y contexto general. -->
 ---
 layout: cover
 ---
@@ -442,6 +443,7 @@ transition: fade
 
 </div>
 
+<!-- Por qué importa: productividad, flujo de trabajo y nuevas habilidades; también retos de confianza y fundamentos. -->
 ---
 layout: cover
 transition: fade
@@ -509,6 +511,7 @@ image: /vs_code.jpeg
   * Agent mode 🤖
 * Propietary 🔒
 
+<!-- Copilot acelera autocompletar y chat; yo guío con una especificación y reviso siempre. -->
 ---
 layout: image-left
 transition: slide-up
@@ -532,6 +535,7 @@ image: /cline.png
 * Can be run locally, any model can be used 🏠
 * Open source, you can inspect and modify it's code 🛠️
 
+<!-- Cline destaca por el modo agente y transparencia del flujo; ideal para tareas guiadas y trabajo local. -->
 ---
 layout: image-right
 transition: slide-up
@@ -555,6 +559,7 @@ image: /cursor_ide.png
 * Easily integrated on your professional workflow: prompt -> review -> accept 🔄
   * You can easily reference files, assets, URLs... 🔗
 
+<!-- Cursor entiende el repo y se integra fácil al flujo: pedir → revisar → aceptar. Muy útil en equipos. -->
 ---
 layout: image-left
 transition: fade
@@ -779,8 +784,10 @@ transition: fade
 </div>
 
 # Bibliography
+Useful resources
 
-- Addy Osmani (2025). <i>Beyond Vibe Coding: From Coder to AI-Era Developer</i>. O'Reilly Media. [Read online](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/)
+Addy Osmani (2025). <i>Beyond Vibe Coding: From Coder to AI-Era Developer</i>. O'Reilly Media. [Read online](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/)
 
 
 
+<!-- Estos recursos son para profundizar cuando haga falta; guárdalos y vuelve cuando necesites plantillas o ideas. -->
