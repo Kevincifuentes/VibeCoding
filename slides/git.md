@@ -32,7 +32,7 @@ lineNumbers: true
 
 Master the basics of Git and GitHub
 
-<img src="/git.png" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
+<img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
 <div class="abs-br m-6 text-xl">
   <a href="https://git-scm.com/" target="_blank" class="slidev-icon-btn">

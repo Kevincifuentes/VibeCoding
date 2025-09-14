@@ -28,7 +28,7 @@ lineNumbers: true
 
 # Vibe Coding
 
-Introducción 
+## Introducción 
 
 <img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 

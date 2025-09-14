@@ -28,7 +28,7 @@ lineNumbers: true
 
 # Vibe Coding
 
-What is Vibe Coding?
+## What is Vibe Coding?
 
 <img src="/centro-arangoya.jpg" class="w-40 mx-auto mt-4 rounded-lg shadow-lg" />
 
@@ -779,8 +779,9 @@ transition: fade
 </div>
 
 # Bibliography
+Useful resources
 
-- Addy Osmani (2025). <i>Beyond Vibe Coding: From Coder to AI-Era Developer</i>. O'Reilly Media. [Read online](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/)
+Addy Osmani (2025). <i>Beyond Vibe Coding: From Coder to AI-Era Developer</i>. O'Reilly Media. [Read online](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/)
 
 
 
