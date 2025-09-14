@@ -34,6 +34,7 @@ lineNumbers: true
   </a>
 </div>
 
+<!--  Cómo pedirle cosas a la IA para que nos dé buen código. Nada de magia: es comunicación clara y práctica. -->
 ---
 layout: cover
 ---
@@ -62,6 +63,7 @@ Prompt engineering is the <b>skill of speaking the AI's language</b> 🗣️
   <SlideCurrentNo />
 </div>
 
+<!--  La idea central: los prompts son el nuevo "código". Si defines bien el qué y el cómo, la IA implementa. Especificidad > intuición. -->
 ---
 layout: default
 transition: fade
@@ -86,6 +88,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Por qué importa: la IA no lee la mente. Si somos claros, obtenemos resultados útiles y repetibles. Esto ahorra tiempo y errores. -->
 ---
 layout: default
 transition: fade
@@ -112,6 +115,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Regla de oro: sé específico. Lenguaje, inputs/outputs, restricciones y formato. Piensen como si escribieran una especificación. -->
 ---
 layout: full
 transition: slide-up
@@ -153,6 +157,7 @@ flowchart LR
   <SlideCurrentNo />
 </div>
 
+<!--  Esto es iterativo: pedimos, revisamos, afinamos. Cambios pequeños y feedback concreto. Eso acelera muchísimo. -->
 ---
 layout: two-cols-header
 transition: slide-left
@@ -196,6 +201,7 @@ transition: slide-left
   <SlideCurrentNo />
 </div>
 
+<!--  Tres básicos: zero-shot (rápido), few-shot (consistencia/formatos), CoT (razonamiento paso a paso). -->
 ---
 layout: two-cols-header
 transition: fade
@@ -237,6 +243,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Subimos nivel: rol para tono/profundidad, contexto para integrar con lo real, metaprompt para formatos exactos. -->
 ---
 layout: two-cols-header
 transition: slide-up
@@ -299,6 +306,7 @@ how can I fix it?"
   <SlideCurrentNo />
 </div>
 
+<!--  Fíjense cómo cambia el resultado con contexto. Un buen prompt describe el objetivo, el error y el código relevante. -->
 ---
 layout: default
 transition: fade
@@ -327,6 +335,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Para tareas grandes, separen planificación de ejecución y combinen técnicas. Iteren con estado de la conversación. -->
 ---
 layout: full
 transition: slide-up
@@ -357,6 +366,7 @@ transition: slide-up
   <SlideCurrentNo />
 </div>
 
+<!--  Lo que NO hacer: vaguedad, demasiadas cosas a la vez, sin pregunta clara. Siempre definan criterios de éxito. -->
 ---
 layout: two-cols-header
 transition: fade
@@ -400,6 +410,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Aquí tienen el checklist rápido: prueben simple primero, agreguen ejemplos y usen paso a paso cuando haya lógica. -->
 ---
 layout: two-cols-header
 transition: fade
@@ -413,15 +424,10 @@ transition: fade
 
 # Key Takeaways 🎯
 
-<!-- Aquí están los puntos clave que queremos que se lleven de esta charla -->
-<!-- Básicamente, esto es lo que esperamos que recuerden después de todo -->
-
 ::right::
 
 1. **Treat prompting as a new essential programming skill** 💻
-<!-- Esto es súper importante - ya no es solo saber programar, ahora hay que saber hablar con la IA -->
 2. **Communication quality directly impacts code quality** 📢
-<!-- Si no sabes explicar bien lo que quieres, la IA no va a entender y te va a dar código malo -->
 3. **Iteration and refinement are normal and expected** 🔄
 4. **Combine techniques for complex scenarios** 🧩
 5. **Learn from failures - refine prompts like debugging code** 🐛
@@ -440,6 +446,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
+<!--  Aquí remato: prompting es una habilidad clave; cuanto mejor te comunicas, mejor es el código. Iteren sin miedo, combinen técnicas según el caso y aprendan de los fallos. La meta es que el prompt sea tan claro que otro dev pueda implementarlo sin dudas. -->
 ---
 layout: center
 transition: fade
@@ -463,3 +470,4 @@ OpenAI Prompt Engineering — [platform.openai.com](https://platform.openai.com/
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div>
+<!--  Si quieren profundizar, estas referencias son un buen punto de partida. No hace falta leerlo todo hoy; guárdenlas y vuelvan cuando necesiten ideas o plantillas de prompts. -->
