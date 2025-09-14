@@ -6,6 +6,10 @@ La página web está disponible directamente en los siguientes URLs, "hosteada" 
 * [Introducción](https://kevincifuentes.github.io/VibeCoding/introduccion)
 * [What is Vibe Coding?](https://kevincifuentes.github.io/VibeCoding/what_is_vibe_coding)
 
+## Workshops
+
+* [Mastering Git](https://kevincifuentes.github.io/VibeCoding/git)
+
 Si quieres "jugar" en local con el repositorio, puedes hacerlo de la siguiente manera:
 
 - `pnpm install`

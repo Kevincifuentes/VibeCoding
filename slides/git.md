@@ -168,16 +168,19 @@ transition: slide-up
 
 # Feature-Branch Flow (overview)
 
-```mermaid {theme: 'neutral', scale: 0.45}
+```mermaid {theme: 'neutral', scale: 0.75}
 flowchart LR
-  A[main] -->|branch from| B[feature/awesome]
-  B --> C[commit 1]
-  C --> D[commit 2]
-  D --> E[push to origin]
-  E --> F[Open Pull Request]
-  F --> G[Code Review]
-  G --> H[Merge to main]
-  H --> I[Delete branch]
+  A[main]
+  B[feature/awesome]
+  C[commit 1]
+  D[commit 2]
+  E[push to origin]
+  F[Open Pull Request]
+  G[Code Review]
+  H[Merge to main]
+  I[Delete branch]
+
+  A -->|branch from| B --> C --> D --> E --> F --> G --> H --> I
 
   style A fill:#e5f5ff,stroke:#1e90ff,stroke-width:2px
   style B fill:#f7e5ff,stroke:#c57eff,stroke-width:2px,stroke-dasharray: 5 5
@@ -319,6 +322,8 @@ image: /pull_request.gif
 backgroundSize: contain
 ---
 
+<div class="max-w-4xl">
+
 # Open a Pull Request (GitHub)
 
 1. Push your branch: `git push -u origin feature/awesome`
@@ -332,6 +337,8 @@ backgroundSize: contain
 <b>Tip</b>: Prefer <b>Squash & merge</b> for clean history on `main`.
 </div>
 
+</div>
+
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
 </div>
@@ -343,12 +350,15 @@ transition: slide-up
 
 # Review & Merge
 
-```mermaid {theme: 'neutral', scale: 0.45}
+```mermaid {theme: 'neutral', scale: 0.75}
 flowchart LR
-  A[feature/awesome] --> B[PR #123]
-  B --> C[CI checks]
-  C -->|approve| D[Merged into main]
-  D --> E[Deploy]
+  A[feature/awesome]
+  B[PR #123]
+  C[CI checks]
+  D[Merged into main]
+  E[Deploy]
+
+  A --> B --> C --> D --> E
 
   style A fill:#f7e5ff,stroke:#c57eff,stroke-width:2px,stroke-dasharray: 5 5
   style D fill:#e5f5ff,stroke:#1e90ff,stroke-width:2px
@@ -414,7 +424,7 @@ transition: fade
 
 # Trunk-based development (contrast)
 
-```mermaid {theme: 'neutral', scale: 0.45}
+```mermaid {theme: 'neutral', scale: 0.75}
 flowchart LR
   T[trunk/main]
   subgraph Short-lived branches
@@ -445,7 +455,9 @@ transition: fade
 
 # Quick cheat sheet
 
-```bash
+<div class="text-sm max-w-3xl mx-auto">
+
+```bash {2-3|6|8|11,13|16|19-20|23|26|33}{maxHeight:'400px', maxWidth: '1000px'}{lines:true}
 # setup
 git config --global user.name "Name"
 git config --global user.email "you@x.com"
@@ -457,6 +469,9 @@ git clone <url>
 
 # branches
 git switch -c feature/x
+# or
+git checkout -b feature/x
+
 # delete branch (after merge)
 git branch -d feature/x
 
@@ -480,6 +495,17 @@ git revert <sha>
 # cherry-pick
 git cherry-pick <sha>
 ```
+
+<div
+  v-motion
+  :initial="{ x:35, y: 30, opacity: 0}"
+  :enter="{ y: 60, opacity: 1, transition: { delay: 3500 } }">
+
+[Learn more](https://addyosmani.com/)
+
+</div>
+
+</div>
 
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
