@@ -457,7 +457,13 @@ transition: fade
 
 <div class="text-sm max-w-3xl mx-auto">
 
-```bash {2-3|6|8|11,13|16|19-20|23|26|33}{maxHeight:'400px', maxWidth: '1000px'}{lines:true}
+<div>
+
+[Learn more](https://education.github.com/git-cheat-sheet-education.pdf)
+
+</div>
+
+```bash {2-3|6|8|11,13|16|19-20|23|26|33}{maxHeight:'400px', maxWidth: '1000px', lines:true}
 # setup
 git config --global user.name "Name"
 git config --global user.email "you@x.com"
@@ -495,15 +501,6 @@ git revert <sha>
 # cherry-pick
 git cherry-pick <sha>
 ```
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 60, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://addyosmani.com/)
-
-</div>
 
 </div>
 
