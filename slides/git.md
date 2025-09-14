@@ -490,6 +490,16 @@ layout: center
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 # Resources
 
 - Pro Git (Scott Chacon, Ben Straub) — [git-scm.com/book](https://git-scm.com/book)
