@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Get the current path excluding the base
+    const path = window.location.pathname.replace('/VibeCoding', '');
+    // Store the full path in session storage
+    sessionStorage.setItem('redirect', path);
+    // Redirect to the base URL
+    window.location.replace('/VibeCoding/');
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html> 
