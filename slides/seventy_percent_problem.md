@@ -327,9 +327,8 @@ Los patrones que sí funcionan y hay que seguir son los siguientes:
 -->
 
 ---
-layout: iframe-right
+layout: two-cols-header
 transition: fade
-url: https://www.reddit.com/r/vibecoding/s/7vL9Jsa8wN
 class: text-left
 ---
 
@@ -344,8 +343,9 @@ class: text-left
 </div>
 
 # Team Coordination Essentials
+:: left ::
 
-### Preventing Chaos:
+## Preventing Chaos:
 
 - Coordination prevents <b>duplication</b>: both ask the AI to create a formatDate helper, you might end up with two similar functions
 
@@ -353,6 +353,14 @@ class: text-left
 
 - Share and reuse <b>effective prompts</b>
 
+<br>
+<br>
+<br>
+<br>
+
+:: right ::
+
+<a href="https://www.reddit.com/r/vibecoding/s/7vL9Jsa8wN" target="_blank" rel="noopener" class="block p-4 border rounded-lg shadow-sm hover:shadow transition">Open Reddit post ↗</a>
 
 <!--
 
