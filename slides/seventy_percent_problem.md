@@ -360,7 +360,7 @@ class: text-left
 
 :: right ::
 
-<a href="https://www.reddit.com/r/vibecoding/s/7vL9Jsa8wN" target="_blank" rel="noopener" class="block p-4 border rounded-lg shadow-sm hover:shadow transition">Open Reddit post ↗</a>
+<iframe src="https://www.redditmedia.com/r/vibecoding/comments/1myakhd/how_we_vibe_code_at_a_faang/?embed=true&ref_source=embed&ref=share" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none; width:100%; height:400px; border-radius: 8px;" scrolling="yes" loading="lazy"></iframe>
 
 <!--
 
