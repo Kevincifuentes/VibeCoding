@@ -38,6 +38,10 @@ The 70% problem
   </a>
 </div>
 
+<!--
+Portada: título y visual de Vibe Coding. Introduce el “70% problem” y enlaza al repositorio de ejemplo.
+-->
+
 ---
 transition: fade-out
 layout: center
@@ -321,3 +325,227 @@ Los patrones que sí funcionan y hay que seguir son los siguientes:
 * Usar la IA como validación, es decir, seguimos programando los humanos pero con supervisión/mejoras de lo programado por parte de la IA.
 
 -->
+
+---
+layout: iframe-right
+transition: fade
+url: https://www.reddit.com/r/vibecoding/s/7vL9Jsa8wN
+class: text-left
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
+# Team Coordination Essentials
+
+### Preventing Chaos:
+
+- Coordination prevents <b>duplication</b>: both ask the AI to create a formatDate helper, you might end up with two similar functions
+
+- Teams that successfully integrate AI tools often start by agreeing on <b>coding standards and prompting practices</b>
+
+- Share and reuse <b>effective prompts</b>
+
+
+<!--
+
+Coordinación antes de generar código:
+- Acordad estándares de código y prácticas de prompting para todo el equipo.
+- Compartid y reutilizad prompts eficaces (evita “reinventar” funciones).
+- Ejemplo: si dos personas piden a la IA un helper `formatDate`, sin coordinación aparecerán dos variantes casi iguales.
+
+Idea clave: menos sorpresas y menos duplicaciones cuando hay acuerdos previos.
+-->
+
+---
+transition: slide-left
+layout: image-left
+image: /versions.jpg
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
+# Version Control Best Practices: Why so important?
+
+<div class="text-sm">
+
+- <b>Commits</b> act as the safety net to catch AI missteps; if an AI-generated change breaks something, you can <b>revert</b> to a previous commit
+
+- Frequent commits ensure that if you need to bisect issues or undo a portion of AI-introduced code, the <b>history</b> is granular enough
+
+- <b>Descriptive commit messages</b> are important; some teams even tag commits that had heavy AI involvement, just for <b>traceability</b>
+
+</div>
+
+<!--
+
+Por qué Git es crítico con IA:
+- Los commits actúan como red de seguridad: si una sugerencia rompe algo, revertimos.
+- Commits pequeños y frecuentes facilitan bisectar y aislar cambios generados por IA.
+- Mensajes descriptivos y etiquetas para trazabilidad (saber qué tuvo participación de la IA).
+
+Consejo: separa el trabajo humano del de la IA en commits distintos.
+-->
+
+---
+transition: slide-up
+layout: full
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
+# The Golden Rules of Vibe Coding 🥇
+
+### Essential Principles:
+
+- Be specific and clear about <b>what you want</b>
+
+- <b>Always validate</b> AI output against your intent, don't merge code you don't understand
+
+- Treat AI as a junior developer (with supervision)
+
+- <b>Use AI to expand your capabilities</b>, not replace your thinking
+
+- Ensure that all code, whether human or AI-written, undergoes <b>code review</b>
+
+<!--
+
+Reglas prácticas al trabajar con IA:
+- Sé específico con lo que pides; define el resultado esperado.
+- Valida siempre contra tu intención; no fusiones código que no entiendas.
+- Trata a la IA como a un junior: guía, supervisa y corrige.
+- Usa la IA para ampliar capacidades, no para apagar el pensamiento crítico.
+- Todo el código debe pasar revisión, sea humano o generado por IA.
+
+Objetivo: velocidad sin perder calidad ni comprensión.
+-->
+---
+transition: fade
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
+# Senior vs Junior Developer Dynamics
+
+### <b>Experience</b> Makes the Difference:
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+  <div>
+    <h2>Senior Engineers 👴🏻:</h2>
+    <br>
+    <ul>
+      <li>They're not just accepting what the AI suggests. They're constantly <b>refactoring</b></li>
+      <li>They're applying years of <b>hard-won engineering wisdom</b> to shape and constrain the AI's output"</li>
+      <li>The <b>AI is accelerating their implementation</b>, but their expertise is what keeps the code maintainable</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Junior Engineers 👶:</h2>
+    <br>
+    <ul>
+      <li>Often <b>accept the AI's output</b> more readily</li>
+      <li>Need to learn: <b>Don't skip the 'Why'</b> - understand underlying concepts</li>
+    </ul>
+  </div>
+</div>
+
+<!--
+
+Senior vs Junior:
+- Senior: refactoriza de continuo, aplica criterio y contexto; usa la IA para acelerar decisiones que ya entiende.
+- Junior: tiende a aceptar la salida de la IA; necesita profundizar en el “por qué” detrás de cada solución.
+
+Mensaje: la experiencia guía a la IA, no al revés.
+-->
+
+---
+transition: fade-out
+layout: center
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
+# Key Takeaways
+
+### The Bottom Line:
+
+- 🤖🧠🛠️ AI is a powerful tool, but <b>it's not a magic bullet...</b> human judgment and good software engineering practices are still essential
+- ✨ The craft of software engineering is more than writing <b>code that works</b>. It's about writing code that <b>works well</b>
+- ⚖️ Success requires <b>balancing AI acceleration with human expertise</b>
+- 🎯 Focus on developing the <b>durable 30% skills</b> that AI cannot replicate
+- 🔄 Software engineering is more than writing code, after all - <b>it's a whole workflow</b>
+
+<!--
+
+Cierre:
+- La IA acelera, pero el valor humano está en el criterio, la calidad y el diseño del sistema.
+- Equilibrar aceleración con expertise.
+- Enfocar en las habilidades del 30% que no se automatizan.
+
+Takeaway: ingeniería de software = flujo completo, no solo código.
+-->
+---
+layout: center
+transition: fade
+---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
+# Bibliography 📚
+Useful resources
+
+Beyond Vibe Coding (Addy Osmani) — [O'Reilly Media](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/)
+
+<!--
+
+Más para explorar:
+- Addy Osmani, “Beyond Vibe Coding”.
+- Útil para profundizar en prácticas.
+-->
+
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
