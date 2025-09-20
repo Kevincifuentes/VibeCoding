@@ -327,9 +327,8 @@ Los patrones que sí funcionan y hay que seguir son los siguientes:
 -->
 
 ---
-layout: iframe-right
+layout: two-cols-header
 transition: fade
-url: https://www.reddit.com/r/vibecoding/s/7vL9Jsa8wN
 class: text-left
 ---
 
@@ -344,8 +343,9 @@ class: text-left
 </div>
 
 # Team Coordination Essentials
+:: left ::
 
-### Preventing Chaos:
+## Preventing Chaos:
 
 - Coordination prevents <b>duplication</b>: both ask the AI to create a formatDate helper, you might end up with two similar functions
 
@@ -353,6 +353,14 @@ class: text-left
 
 - Share and reuse <b>effective prompts</b>
 
+<br>
+<br>
+<br>
+<br>
+
+:: right ::
+
+<iframe src="https://www.redditmedia.com/r/vibecoding/comments/1myakhd/how_we_vibe_code_at_a_faang/?embed=true&ref_source=embed&ref=share" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none; width:100%; height:400px; border-radius: 8px;" scrolling="yes" loading="lazy"></iframe>
 
 <!--
 
