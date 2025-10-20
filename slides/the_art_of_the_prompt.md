@@ -283,8 +283,9 @@ transition: slide-up
 <br>
 ::right::
 
-
+<v-click>
 <div class="pl-6 max-w-[30rem]">
+
 
 ## Improved Prompt Example ✅
 
@@ -300,7 +301,7 @@ how can I fix it?"
 **Result**: Precise identification of the loop bounds bug and exact fix
 
 </div>
-
+</v-click>
 
 <div class="abs-br m-6 text-xl">
   <SlideCurrentNo />
