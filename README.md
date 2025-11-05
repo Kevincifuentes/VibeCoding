@@ -7,6 +7,7 @@ La página web está disponible directamente en los siguientes URLs, "hosteada" 
 * [What is Vibe Coding?](https://kevincifuentes.github.io/VibeCoding/what_is_vibe_coding)
 * [The art of the prompt](https://kevincifuentes.github.io/VibeCoding/the_art_of_the_prompt)
 * [Seventy percent problem](https://kevincifuentes.github.io/VibeCoding/seventy_percent_problem)
+* [Maximizing human contribution](https://kevincifuentes.github.io/VibeCoding/maximizing_human_contribution)
 
 ## Workshops
 
