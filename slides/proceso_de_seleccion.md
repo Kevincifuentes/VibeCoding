@@ -32,6 +32,12 @@ layout: two-cols
 transition: fade
 ---
 
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
+
 # Fase 1: Tu CV es tu Producto 📄
 
 <v-clicks>
@@ -70,11 +76,21 @@ Investiga la cultura y salarios reales en **Blind**, **Reddit**, **Glassdoor** y
   </div>
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 1: Fijaos en la diferencia. El 'Antes' dice lo que hicisteis, el 'Después' dice lo que valéis. Usad números. -->
 ---
 layout: two-cols-header
 transition: slide-up
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Fase 2: Hackeando el Filtro Inicial 🔍
 
@@ -124,11 +140,21 @@ transition: slide-up
   </div>
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 2: Vuestro titular de LinkedIn es vuestro anuncio de neón. Usad la fórmula: Rol + Tecnología + Valor. -->
 ---
 layout: default
 transition: slide-left
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Fase 3: La Prueba Técnica (Live Coding) 💻
 
@@ -173,11 +199,21 @@ def two_sum(nums, target):
 
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 3: En el live coding, vuestra voz es tan importante como vuestro código. Si os atascáis pero explicáis por qué, ganáis puntos. -->
 ---
 layout: full
 transition: fade
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Fase 4: La Entrevista con el Equipo 🤝
 
@@ -221,11 +257,21 @@ transition: fade
 
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 4: Una entrevista es bidireccional. Las preguntas que hacéis dicen mucho de vuestra seniority. -->
 ---
 layout: quote
 transition: slide-up
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # "Las habilidades técnicas te consiguen la entrevista, pero las habilidades no-técnicas te consiguen el trabajo."
 
@@ -237,11 +283,21 @@ transition: slide-up
   (Comunicación, Trabajo en Equipo, Resolución de Conflictos)
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 5: No subestiméis el 'Culture Fit'. Si sois unos genios pero nadie quiere trabajar con vosotros, no os contratarán. -->
 ---
 layout: default
 transition: fade
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Preguntas Reales de Soft Skills 🗣️
 
@@ -273,11 +329,21 @@ transition: fade
   💡 Usa el método <b>STAR</b> (Situación, Tarea, Acción, Resultado) para responder.
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Soft Skills Questions: Preparad historias para estas preguntas. El método STAR es vuestro mejor amigo aquí. -->
 ---
 layout: center
 transition: slide-left
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Fase 6: El Arte de Negociar 🚀
 
@@ -303,11 +369,21 @@ sequenceDiagram
   Recuerda: El salario es solo una parte. (Remoto, Formación, Equity)
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <SlideCurrentNo />
+</div>
+
 <!-- Fase 6: Negociar es normal. Hacedlo con respeto y datos. Y mirad el paquete completo, no solo el dinero. -->
 ---
 layout: center
 transition: fade
 ---
+
+<div class="abs-tr m-6 text-xl">
+  <a href="https://wwww.arangoya.org" target="_blank" class="slidev-icon-btn">
+    <img src="/favicon.png">
+  </a>
+</div>
 
 # Tu Camino al Éxito Empieza Hoy 🏆
 
