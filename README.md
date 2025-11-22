@@ -13,6 +13,7 @@ La página web está disponible directamente en los siguientes URLs, "hosteada" 
 ## Workshops
 
 * [Mastering Git](https://kevincifuentes.github.io/VibeCoding/git)
+* [Proceso de Selección](https://kevincifuentes.github.io/VibeCoding/proceso_de_seleccion)
 
 # Local testing
 
