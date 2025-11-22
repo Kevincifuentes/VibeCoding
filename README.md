@@ -8,6 +8,7 @@ La página web está disponible directamente en los siguientes URLs, "hosteada" 
 * [The art of the prompt](https://kevincifuentes.github.io/VibeCoding/the_art_of_the_prompt)
 * [Seventy percent problem](https://kevincifuentes.github.io/VibeCoding/seventy_percent_problem)
 * [Maximizing human contribution](https://kevincifuentes.github.io/VibeCoding/maximizing_human_contribution)
+* [Understanding generated code](https://kevincifuentes.github.io/VibeCoding/understanding_generated_code)
 
 ## Workshops
 
