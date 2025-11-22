@@ -27,7 +27,7 @@ lineNumbers: true
   </a>
 </div>
 
-<!-- Chapter 5: Understanding Generated Code—Review, Refine, Own -->
+<!-- Introducción: Arrancamos con el tema clave: entender lo que la IA nos da. No es magia, es una herramienta, y el código que escupe hay que revisarlo, refinarlo y hacerlo nuestro. -->
 ---
 layout: center
 transition: fade
@@ -72,7 +72,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 1: The Critical Phase After Generation -->
+<!-- Fase crítica: Mucha gente copia y pega, y eso es un error. Hay que revisar la intención, probar a fondo y sentir que el código es vuestro, no de una máquina. -->
 ---
 layout: default
 transition: slide-up
@@ -129,7 +129,7 @@ transition: slide-up
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 2: From Intent to Implementation -->
+<!-- Del intento a la implementación: Haced de detectives. ¿Cumple lo que pedí? ¿Ha metido cosas extra? ¿Qué pasa con los nulls? Leed el código, no os fiéis. -->
 ---
 transition: fade
 ---
@@ -194,7 +194,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 3: The Majority Solution Problem -->
+<!-- Problema de la mayoría: La IA tira por lo popular, no siempre por lo óptimo. Si pedís buscar, os dará una búsqueda lineal, pero igual necesitáis una binaria. Vosotros ponéis el contexto. -->
 ---
 layout: two-cols-header
 transition: slide-left
@@ -267,7 +267,7 @@ transition: slide-left
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 4: Code Readability and Structure -->
+<!-- Legibilidad: La IA escribe código que a veces parece de tutorial. Limpiadlo. Que se lea como código profesional, no como un ejemplo de StackOverflow. -->
 ---
 layout: full
 transition: fade
@@ -329,7 +329,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 5: Red Flags in AI-Generated Code -->
+<!-- Banderas rojas: Bucles que se pasan por uno, errores no capturados, librerías fantasma. La sintaxis suele estar bien, pero la lógica puede tener agujeros. -->
 ---
 layout: quote
 transition: slide-up
@@ -361,7 +361,7 @@ Ask "why" about unclear patterns.
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 6: The Code Review Mindset -->
+<!-- Mentalidad de revisión: Tratad el código como el de un becario. No deis por hecho que funciona solo porque tiene buena pinta. La responsabilidad final es vuestra. -->
 ---
 layout: default
 transition: fade
@@ -423,7 +423,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 7: Debugging AI-Generated Code -->
+<!-- Depuración: Reproducid, localizad y usad la IA para entender el fallo. Y consejo de oro: escribid tests antes de depurar. -->
 ---
 layout: full
 transition: slide-left
@@ -470,7 +470,7 @@ transition: slide-left
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 8: Understanding Why Bugs Occur -->
+<!-- Por qué fallan: ¿Fue mi prompt? Entender el origen del error os hará mejores 'prompt engineers' para la próxima. -->
 ---
 layout: default
 transition: fade
@@ -532,7 +532,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 9: Refactoring for Maintainability -->
+<!-- Refactorización: Quitad lo que sobra, poned nombres decentes y seguid las guías. El objetivo es que nadie note que lo escribió una IA. -->
 ---
 layout: two-cols-header
 transition: slide-up
@@ -576,7 +576,7 @@ transition: slide-up
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 10: Testing is Non-Negotiable -->
+<!-- Testing obligatorio: Unitarios, integración... lo que sea, pero probad. Si no hay tests, ese código es una bomba de relojería. -->
 ---
 layout: center
 transition: fade
@@ -606,7 +606,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 11: What Testing Provides -->
+<!-- Valor del testing: No solo encuentran bugs, dan paz mental. Si tenéis tests, podéis refactorizar sin miedo. Es la única forma de 'poseer' el código. -->
 ---
 layout: default
 transition: slide-left
@@ -661,7 +661,7 @@ transition: slide-left
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 12: Copyright and Attribution Considerations -->
+<!-- Copyright: Sois responsables de lo que entregáis. Si la IA copia un bloque enorme con licencia, el problema es vuestro. Revisad siempre. -->
 ---
 layout: center
 transition: fade
@@ -708,7 +708,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 13: Integration and Version Control -->
+<!-- Integración: Commitead el código refactorizado y probado. Mensajes claros. El código ya debe ser vuestro al entrar en Git. -->
 ---
 layout: center
 transition: slide-up
@@ -754,7 +754,7 @@ graph LR
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 14: The Review-Test-Own Cycle -->
+<!-- El ciclo: Generar, Revisar, Arreglar, Refactorizar, Probar y Adueñarse. A veces son 5 minutos, a veces días, pero no os saltéis pasos. -->
 ---
 layout: full
 transition: fade
@@ -806,7 +806,7 @@ transition: fade
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 15: Key Takeaways for Students -->
+<!-- Resumen: Nunca entreguéis código sin probar. Leedlo, entendedlo y cuestionadlo. La IA os da velocidad, pero la calidad la ponéis vosotros. -->
 ---
 layout: center
 transition: slide-left
@@ -853,7 +853,7 @@ transition: slide-left
   <SlideCurrentNo />
 </div>
 
-<!-- Slide 16: What Comes Next -->
+<!-- Próximos pasos: Prototipado rápido, nuevas herramientas y pasar a producción. Esto no acaba aquí. -->
 
 <style>
 .slidev-layout {
