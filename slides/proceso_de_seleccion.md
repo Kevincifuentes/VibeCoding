@@ -38,14 +38,17 @@ transition: fade
 
 <div class="mt-4">
 
-### 🎯 Personalización
+##### 🎯 Personalización
 No envíes el mismo PDF a todos. Adapta las palabras clave a la oferta.
 
-### 🔗 Enlaces que Importan
+##### 🔗 Enlaces que Importan
 GitHub (código limpio), LinkedIn (actualizado) y Portafolio (proyectos vivos).
 
-### 📈 Impacto > Tareas
+##### 📈 Impacto > Tareas
 Las empresas quieren saber qué lograste, no solo qué hiciste.
+
+##### 🕵️ Investigación
+Investiga la cultura y salarios reales en **Blind**, **Reddit**, **Glassdoor** y **Levels.fyi** antes de aplicar.
 
 </div>
 
